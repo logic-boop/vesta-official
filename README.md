@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏛️ VESTA | Elite Relocation & Management
 
-## Getting Started
+**"The Art of Perfect Transition"** A high-performance, boutique digital flagship for premium relocation services.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 💎 Project Essence
+VESTA is a bespoke platform designed for high-net-worth individuals relocating to Nigeria. The system prioritizes **discretion, precision, and operational excellence**, providing a seamless bridge between global arrival and local settlement.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 🛠️ Signature Solutions Integrated:
+* **Premier Home Acquisition:** Neighborhood analysis and verified property sourcing.
+* **Residence Readiness:** Automated utility management and professional deep cleaning.
+* **Staffing & Security:** Rigorous vetting for domestic staff and asset protection.
+* **Asset Transfer:** Secure transit for high-value logistics.
+* **24/7 Fixer Service:** On-demand technical support and residence maintenance.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🏗️ Technical Architecture
+This flagship was engineered with a focus on speed, motion, and a "Mobile-First Luxury" experience.
 
-## Learn More
+* **Framework:** [Next.js 19](https://nextjs.org/) (App Router)
+* **Styling:** [Tailwind CSS v4](https://tailwindcss.com/) (Modern CSS-variable configuration)
+* **Animations:** [Framer Motion](https://www.framer.com/motion/) (Smooth high-ticket transitions)
+* **Icons:** [Lucide React](https://lucide.dev/)
+* **Form Logic:** React Hook Form
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🚀 Getting Started
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/logic-boop/vesta-official.git](https://github.com/logic-boop/vesta-official.git)
 
-## Deploy on Vercel
+2. Install dependencies:
+   npm install
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. Run the development server:
+   npm run dev
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4. Build for production:
+   npm run build
+
+
+👤 Engineering & Creative Direction
+This project was architected and deployed by LogicTech.
+
+LogicTech specializes in high-performance web architecture, AI automation, and immersive 3D brand systems. We build digital infrastructures that scale with your vision.
+
+Lead Developer: Olubode Afolabi James
+
+Portfolio: [LogicTech Official Site]
+
+Stack: Next.js | TypeScript | Node.js | Three.js
+
+🔒 Security & Discretion
+Designed for a referral-only clientele. All consultation requests are processed through a secure serverless pipeline to ensure absolute data privacy.
+
+© 2026 VESTA Elite. Engineered by LogicTech.
