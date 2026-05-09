@@ -27,6 +27,28 @@ This flagship was engineered with a focus on speed, motion, and a "Mobile-First 
 
 ---
 
+## 🏗️ System Features
+
+### 1. Private Consultation Engine
+A secure modal-driven intake system that captures client data and transmits it directly to the VESTA concierge team via encrypted channels.
+
+### 2. High-Performance SEO
+Integrated OpenGraph and Twitter meta-tags ensure that the brand maintains a premium presence across all social and professional share channels.
+
+### 3. Luxury 404 Experience
+A bespoke "Position Unknown" recovery page that ensures zero friction in the user journey, even during navigation errors.
+
+---
+
+## 📈 Growth & Performance
+
+Every millisecond counts in high-ticket conversions. VESTA utilizes:
+*   **Image Optimization:** Automated Next/Image delivery.
+*   **Edge Functions:** Server-side logic handled at the closest possible node to the user.
+*   **Intention-Driven Design:** Every UI element is built to drive a single action: the Private Consultation Request.
+
+---
+
 ## 🚀 Getting Started
 
 1. **Clone the repository:**
@@ -43,18 +65,8 @@ This flagship was engineered with a focus on speed, motion, and a "Mobile-First 
    npm run build
 
 
-👤 Engineering & Creative Direction
-This project was architected and deployed by LogicTech.
+## 👨‍💻 Developed By
 
-LogicTech specializes in high-performance web architecture, AI automation, and immersive 3D brand systems. We build digital infrastructures that scale with your vision.
-
-Lead Developer: Olubode Afolabi James
-
-Portfolio: [LogicTech Official Site]
-
-Stack: Next.js | TypeScript | Node.js | Three.js
-
-🔒 Security & Discretion
-Designed for a referral-only clientele. All consultation requests are processed through a secure serverless pipeline to ensure absolute data privacy.
-
-© 2026 VESTA Elite. Engineered by LogicTech.
+**Olubode Afolabi James**  
+*Lead Full Stack Developer | Technical Architect | Growth Builder*  
+[LogicTech AI & Design](https://logictech-umber.vercel.app)
