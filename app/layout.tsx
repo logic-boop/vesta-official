@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react"; // Integrated Analytics
 import "./globals.css";
 
 const geistSans = Geist({
@@ -12,12 +13,32 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-// SEO & Brand Metadata
+// SEO & Brand Metadata - Enhanced for High-Ticket Professionalism
 export const metadata: Metadata = {
-  title: "VESTA | Elite Relocation & Management",
-  description: "Bespoke transition and logistics solutions for high-net-worth individuals. Engineered for discretion, precision, and excellence.",
-  keywords: ["Relocation Nigeria", "Luxury Concierge Lagos", "Bespoke Logistics", "Elite Management"],
+  title: "VESTA | Elite Transition & Bespoke Logistics",
+  description: "Bespoke logistics and transition management for high-net-worth individuals. Engineered for discretion, precision, and excellence.",
+  keywords: [
+    "Luxury Logistics Nigeria",
+    "Bespoke Relocation",
+    "High-Ticket Concierge Lagos",
+    "Elite Asset Management",
+    "VESTA Official"
+  ],
   authors: [{ name: "LogicTech", url: "https://logictech-umber.vercel.app" }],
+  metadataBase: new URL("https://vesta-official.vercel.app"),
+  openGraph: {
+    title: "VESTA | Elite Transition Management",
+    description: "Secure and discreet logistics for the global elite.",
+    url: "https://vesta-official.vercel.app",
+    siteName: "VESTA",
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "VESTA | Elite Transition Management",
+    description: "Engineered for discretion, precision, and excellence.",
+  },
   icons: {
     icon: "/logo.ico",
   },
@@ -43,6 +64,7 @@ export default function RootLayout({
     >
       <body className="bg-vesta-black min-h-full flex flex-col selection:bg-vesta-gold selection:text-vesta-black">
         {children}
+        <Analytics /> {/* Capturing visitor data for LogicTech insights */}
       </body>
     </html>
   );
