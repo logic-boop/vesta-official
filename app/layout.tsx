@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import { Analytics } from "@vercel/analytics/react"; // Integrated Analytics
+import { Analytics } from "@vercel/analytics/react"; 
+import { SpeedInsights } from "@vercel/speed-insights/next"; // Added for performance tracking
 import "./globals.css";
 
 const geistSans = Geist({
@@ -19,7 +20,7 @@ export const metadata: Metadata = {
   description: "Bespoke logistics and transition management for high-net-worth individuals. Engineered for discretion, precision, and excellence.",
   keywords: [
     "Luxury Logistics Nigeria",
-    "Bespoke Relocation",
+    "Bespoke Relocation", 
     "High-Ticket Concierge Lagos",
     "Elite Asset Management",
     "VESTA Official"
@@ -64,7 +65,8 @@ export default function RootLayout({
     >
       <body className="bg-vesta-black min-h-full flex flex-col selection:bg-vesta-gold selection:text-vesta-black">
         {children}
-        <Analytics /> {/* Capturing visitor data for LogicTech insights */}
+        <Analytics />
+        <SpeedInsights /> {/* Resolves the Vercel dashboard data requirement */}
       </body>
     </html>
   );
