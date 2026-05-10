@@ -1,7 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react"; 
-import { SpeedInsights } from "@vercel/speed-insights/next"; // Added for performance tracking
+import { SpeedInsights } from "@vercel/speed-insights/next"; 
 import "./globals.css";
 
 const geistSans = Geist({
@@ -40,8 +40,11 @@ export const metadata: Metadata = {
     title: "VESTA | Elite Transition Management",
     description: "Engineered for discretion, precision, and excellence.",
   },
+  // UPDATED: Standardized to VESTA favicon branding
   icons: {
-    icon: "/logo.ico",
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico", // Points to your favicon for mobile home-screen saves
   },
 };
 
@@ -66,7 +69,7 @@ export default function RootLayout({
       <body className="bg-vesta-black min-h-full flex flex-col selection:bg-vesta-gold selection:text-vesta-black">
         {children}
         <Analytics />
-        <SpeedInsights /> {/* Resolves the Vercel dashboard data requirement */}
+        <SpeedInsights />
       </body>
     </html>
   );
