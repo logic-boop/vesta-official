@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-// SEO & Brand Metadata - Enhanced for High-Ticket Professionalism
+// SEO & Brand Metadata - Engineered by LogicTech
 export const metadata: Metadata = {
   title: "VESTA | Elite Transition & Bespoke Logistics",
   description: "Bespoke logistics and transition management for high-net-worth individuals. Engineered for discretion, precision, and excellence.",
@@ -27,6 +27,18 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "LogicTech", url: "https://logictech-umber.vercel.app" }],
   metadataBase: new URL("https://vesta-official.vercel.app"),
+  
+  // High-Resolution Branding
+  manifest: "/manifest.json",
+  icons: {
+    icon: [
+      { url: "/favicon.ico" }, 
+      { url: "/icon-512.png", sizes: "512x512", type: "image/png" }, 
+    ],
+    shortcut: "/favicon.ico",
+    apple: "/icon-512.png", 
+  },
+
   openGraph: {
     title: "VESTA | Elite Transition Management",
     description: "Secure and discreet logistics for the global elite.",
@@ -40,15 +52,9 @@ export const metadata: Metadata = {
     title: "VESTA | Elite Transition Management",
     description: "Engineered for discretion, precision, and excellence.",
   },
-  // UPDATED: Standardized to VESTA favicon branding
-  icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon.ico",
-    apple: "/favicon.ico", // Points to your favicon for mobile home-screen saves
-  },
 };
 
-// Ensures the mobile browser doesn't zoom in on input fields
+// Optimal Viewport Settings for Luxury UI
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
